@@ -58,7 +58,9 @@ def main():
             # Call function to display all books
             print("Library Books:")
             for book in library_books:
-                print(f"Title: {book['title']}, Author: {book['author']}, Available:{book['availability']}")
+                print(f"Title: {book['title']}, "
+                      f"Author: {book['author']}, "
+                      f"Available:{book['availability']}")
         elif choice == "6":
             # Call function to display all members
             print("Library Members")

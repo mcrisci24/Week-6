@@ -1,10 +1,7 @@
 library_books = []                             # This is a list of library books
 
 def add_book(title, author):                                    # This defines a function that adds books to the library
-    books = {"title": title,
-             "author": author,
-             "availability": True
-    }
+    books = {"title": title, "author": author, "availability": True}
     library_books.append(book)
 
 def borrow_book(title):                                         # This defines a functions that changes the availability of a book to false if unavailable because it is has been loaned out.
